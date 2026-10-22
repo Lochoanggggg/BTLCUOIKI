@@ -1,0 +1,5 @@
+@extends('layouts.app')
+@section('title', 'Quản trị | BTL Clothing')
+@section('content')
+<div class="mx-auto max-w-7xl px-6 py-16"><p class="text-sm font-bold uppercase tracking-widest text-amber-600">Khu vực riêng</p><h1 class="mt-2 text-4xl font-black">Xin chào, {{ auth()->user()->name }}</h1><p class="mt-3 text-stone-600">Đây là bảng điều khiển dành cho chủ cửa hàng.</p><div class="mt-10 grid gap-5 md:grid-cols-3"><div class="rounded-2xl bg-white p-7 shadow-sm ring-1 ring-stone-200"><p class="text-sm text-stone-500">Quyền truy cập</p><p class="mt-2 text-2xl font-black text-amber-600">OWNER</p></div><div class="rounded-2xl bg-white p-7 shadow-sm ring-1 ring-stone-200"><p class="text-sm text-stone-500">Tài khoản</p><p class="mt-2 text-2xl font-black">Đang hoạt động</p></div><div class="rounded-2xl bg-white p-7 shadow-sm ring-1 ring-stone-200"><p class="text-sm text-stone-500">Trạng thái hệ thống</p><p class="mt-2 text-2xl font-black text-emerald-600">Ổn định</p></div></div></div>
+@endsection

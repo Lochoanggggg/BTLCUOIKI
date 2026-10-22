@@ -1,0 +1,5 @@
+@extends('layouts.app')
+@section('title', 'Liên hệ | TTG Shop')
+@section('content')
+<section class="mx-auto max-w-5xl px-6 py-20"><div class="grid gap-12 md:grid-cols-2"><div><p class="text-sm font-bold uppercase tracking-widest text-amber-600">Kết nối với chúng tôi</p><h1 class="mt-3 text-5xl font-black">Bạn cần hỗ trợ?</h1><p class="mt-6 text-lg leading-8 text-stone-600">TTG Shop luôn sẵn sàng lắng nghe. Liên hệ với chúng tôi qua các kênh dưới đây.</p></div><div class="space-y-4 rounded-2xl bg-white p-8 shadow-sm ring-1 ring-stone-200"><div><p class="text-sm text-stone-500">Email</p><p class="font-semibold">hoanglocxakieu@gmail.com</p></div><div><p class="text-sm text-stone-500">Hotline</p><p class="font-semibold">034 786 1512</p></div><div><p class="text-sm text-stone-500">Địa chỉ</p><p class="font-semibold">Đống Đa, Hà Nội, Việt Nam</p></div><a class="mt-3 inline-block rounded-full bg-stone-900 px-5 py-3 font-bold text-white hover:bg-amber-700" href="mailto:hello@ttgshop.test">Gửi email</a></div></div></section>
+@endsection
